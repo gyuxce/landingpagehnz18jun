@@ -29,6 +29,7 @@ export default function SalesGallery() {
 
   const categories = [
     { id: "webinar", label: "Webinar Harunokaze Setiap Minggu" },
+    { id: "interview", label: "Interview Konstruksi (STBA Bandung)" },
     { id: "kelas", label: "Kelas Bahasa & Persiapan (Segera)" },
     { id: "alumni", label: "Keberangkatan & Karir (Segera)" },
   ];
@@ -39,6 +40,11 @@ export default function SalesGallery() {
     { src: "/webinar-3.jpg", title: "Webinar #3", desc: "Sesi diskusi bersama para peserta mengenai peluang kerja dan persiapan bahasa." },
     { src: "/webinar-4.jpg", title: "Webinar #4", desc: "Tanya jawab langsung membahas langkah-langkah penentuan program karir yang tepat." },
     { src: "/webinar-5.jpg", title: "Webinar #5", desc: "Sesi berbagi pengalaman dari mentor mengenai kesiapan kerja dan kehidupan di Jepang." },
+  ];
+
+  const interviewImages = [
+    { src: "/interview-1.jpg", title: "Interview #1", desc: "Dokumentasi pelaksanaan interview langsung untuk seleksi program kerja Jepang bidang konstruksi di STBA Bandung." },
+    { src: "/interview-2.jpg", title: "Interview #2", desc: "Suasana persiapan tertulis dan pembekalan para kandidat sebelum memasuki sesi seleksi interview." },
   ];
 
   return (
@@ -73,7 +79,7 @@ export default function SalesGallery() {
         >
           {categories.map((tab) => {
             const isActive = activeTab === tab.id;
-            const isDisabled = tab.id !== "webinar";
+            const isDisabled = tab.id !== "webinar" && tab.id !== "interview";
             return (
               <button
                 key={tab.id}
@@ -93,7 +99,7 @@ export default function SalesGallery() {
           })}
         </div>
 
-        {/* Gallery Content */}
+        {/* Gallery Content - Webinar */}
         {activeTab === "webinar" && (
           <div 
             className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-700 delay-300 ${
@@ -127,6 +133,53 @@ export default function SalesGallery() {
                     <span className="text-brand-navy/20">•</span>
                     <Users className="w-3 h-3 text-brand-red" />
                     <span>Interactive</span>
+                  </div>
+                  <h3 className="font-heading text-sm sm:text-base font-bold text-brand-navy leading-snug">
+                    {image.title}
+                  </h3>
+                  <p className="text-xs text-brand-navy-light leading-normal">
+                    {image.desc}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Gallery Content - Interview */}
+        {activeTab === "interview" && (
+          <div 
+            className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-700 delay-300 ${
+              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            }`}
+          >
+            {interviewImages.map((image, idx) => (
+              <div
+                key={idx}
+                className="group bg-white rounded-card overflow-hidden border border-brand-navy/10 shadow-xs hover:border-brand-navy/20 hover:-translate-y-1 hover:shadow-md transition-all duration-300 flex flex-col"
+              >
+                {/* Image Container */}
+                <div className="relative aspect-video w-full overflow-hidden bg-brand-navy/5">
+                  <img
+                    src={image.src}
+                    alt={image.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  {/* Badge */}
+                  <span className="absolute top-3 left-3 px-2.5 py-1 bg-brand-navy text-white text-[9px] font-bold uppercase tracking-wider rounded-md shadow-sm">
+                    STBA Bandung
+                  </span>
+                </div>
+
+                {/* Text Content */}
+                <div className="p-5 flex-grow space-y-2">
+                  <div className="flex items-center gap-1.5 text-[10px] text-brand-navy-light/75 font-semibold">
+                    <Calendar className="w-3 h-3 text-brand-red" />
+                    <span>Kegiatan Offsite</span>
+                    <span className="text-brand-navy/20">•</span>
+                    <Users className="w-3 h-3 text-brand-red" />
+                    <span>Seleksi Fisik/Mental</span>
                   </div>
                   <h3 className="font-heading text-sm sm:text-base font-bold text-brand-navy leading-snug">
                     {image.title}
