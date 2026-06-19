@@ -14,7 +14,7 @@ export default function SalesTestimonials() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.05 }
     );
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
@@ -69,7 +69,7 @@ export default function SalesTestimonials() {
           {testimonials.map((item, idx) => (
             <div
               key={idx}
-              className={`bg-brand-navy/[0.02] rounded-card p-6 md:p-8 border border-brand-navy/10 shadow-xs hover:border-brand-navy/20 transition-all duration-300 flex flex-col justify-between ${
+              className={`bg-brand-navy/[0.02] rounded-card p-6 md:p-8 border border-brand-navy/10 shadow-xs hover:border-brand-navy/20 hover:-translate-y-1 hover:shadow-sm transition-all duration-300 flex flex-col justify-between ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
               style={{ transitionDelay: `${idx * 150}ms` }}

@@ -15,7 +15,7 @@ export default function SalesHero() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.05 }
     );
     if (heroRef.current) {
       observer.observe(heroRef.current);
@@ -130,7 +130,7 @@ export default function SalesHero() {
           {/* Tombol CTA Utama */}
           <a
             href="#register"
-            className="w-full py-4 bg-brand-red hover:bg-brand-red-light text-white text-base font-bold rounded-button shadow-md hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2 group"
+            className="w-full py-4 bg-brand-red hover:bg-brand-red-light hover:scale-[1.02] active:scale-[0.98] text-white text-base font-bold rounded-button shadow-md hover:shadow-lg transition-all duration-200 flex items-center justify-center gap-2 group"
           >
             Daftar Sesi Rekomendasi Jalur Sekarang
             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />

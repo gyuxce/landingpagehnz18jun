@@ -14,7 +14,7 @@ export default function SalesFlow() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.05 }
     );
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
@@ -158,7 +158,7 @@ export default function SalesFlow() {
             {futureSteps.map((step, idx) => (
               <div
                 key={idx}
-                className="bg-white border border-brand-navy/15 rounded-xl p-4 flex flex-col justify-between min-h-[120px] relative shadow-xs hover:border-brand-navy/30 hover:shadow-sm transition-all duration-200"
+                className="bg-white border border-brand-navy/15 rounded-xl p-4 flex flex-col justify-between min-h-[120px] relative shadow-xs hover:border-brand-navy/30 hover:-translate-y-1 hover:shadow-sm transition-all duration-300"
               >
                 {/* Step Index Circle inside */}
                 <span className="absolute top-3 right-3 text-xs font-bold text-brand-navy/40">

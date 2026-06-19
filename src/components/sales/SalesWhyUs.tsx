@@ -14,7 +14,7 @@ export default function SalesWhyUs() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.05 }
     );
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
@@ -71,7 +71,7 @@ export default function SalesWhyUs() {
           {strengths.map((item, idx) => (
             <div
               key={idx}
-              className={`bg-white rounded-card p-6 md:p-8 border border-brand-navy/10 shadow-xs hover:border-brand-red transition-all duration-300 flex flex-col items-center text-center ${
+              className={`bg-white rounded-card p-6 md:p-8 border border-brand-navy/10 shadow-xs hover:border-brand-red hover:-translate-y-1 hover:shadow-sm transition-all duration-300 flex flex-col items-center text-center ${
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
               style={{ transitionDelay: `${idx * 150}ms` }}

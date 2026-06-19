@@ -16,7 +16,7 @@ export default function SalesFAQ() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.05 }
     );
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
@@ -168,7 +168,7 @@ export default function SalesFAQ() {
               href="https://wa.me/message/DWVTJESHI2RQC1"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex px-8 py-3.5 bg-brand-red hover:bg-brand-red-light text-white text-sm sm:text-base font-bold rounded-button shadow-md hover:shadow-lg transition-all duration-200 gap-2 items-center"
+              className="inline-flex px-8 py-3.5 bg-brand-red hover:bg-brand-red-light hover:scale-[1.02] active:scale-[0.98] text-white text-sm sm:text-base font-bold rounded-button shadow-md hover:shadow-lg transition-all duration-200 gap-2 items-center"
             >
               Daftar Sesi Rekomendasi Jalur
               <ArrowRight className="w-4.5 h-4.5" />

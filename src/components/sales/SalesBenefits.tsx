@@ -14,7 +14,7 @@ export default function SalesBenefits() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.05 }
     );
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
@@ -75,7 +75,7 @@ export default function SalesBenefits() {
           {benefits.map((benefit, idx) => (
             <div
               key={idx}
-              className="flex items-start gap-4 p-4 rounded-xl bg-brand-navy/[0.02] border border-brand-navy/5 shadow-xs hover:border-brand-navy/10 hover:bg-brand-navy/[0.04] transition-all duration-200"
+              className="flex items-start gap-4 p-4 rounded-xl bg-brand-navy/[0.02] border border-brand-navy/5 shadow-xs hover:border-brand-navy/15 hover:bg-white hover:-translate-y-0.5 hover:shadow-sm transition-all duration-300"
             >
               {/* Checkmark Circle */}
               <div className="w-6 h-6 rounded-full bg-brand-red/10 flex items-center justify-center text-brand-red flex-shrink-0 mt-0.5">
