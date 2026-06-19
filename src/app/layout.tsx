@@ -15,9 +15,10 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Harunokaze — Bukan Sekadar Berangkat, Tapi Disiapkan",
+  metadataBase: new URL("https://landingpagehnz18jun.vercel.app"),
+  title: "Harunokaze — Sesi Rekomendasi Jalur Karir Jepang",
   description:
-    "Persiapan karir ke Jepang lewat jalur resmi SSW & TITP. Bermitra dengan LPK resmi terdaftar Kemenaker RI. Mulai dari Sesi Rekomendasi Jalur Rp150.000.",
+    "Dapatkan roadmap yang jelas untuk memulai karier di Jepang, mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu. Hanya Rp79.000.",
   keywords: [
     "kerja di Jepang",
     "SSW",
@@ -25,14 +26,15 @@ export const metadata: Metadata = {
     "LPK Wiwitan",
     "Harunokaze",
     "pelatihan bahasa Jepang",
+    "rekomendasi jalur Jepang",
   ],
   alternates: {
     canonical: "https://harunokaze.id",
   },
   openGraph: {
-    title: "Harunokaze — Bukan Sekadar Berangkat, Tapi Disiapkan",
+    title: "Harunokaze — Sesi Rekomendasi Jalur Karir Jepang",
     description:
-      "Persiapan karir ke Jepang lewat jalur resmi SSW & TITP. Bermitra dengan LPK resmi terdaftar Kemenaker RI. Mulai dari Sesi Rekomendasi Jalur Rp150.000.",
+      "Dapatkan roadmap yang jelas untuk memulai karier di Jepang, mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu. Hanya Rp79.000.",
     url: "https://harunokaze.id",
     siteName: "Harunokaze",
     locale: "id_ID",
@@ -40,9 +42,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Harunokaze — Bukan Sekadar Berangkat, Tapi Disiapkan",
+    title: "Harunokaze — Sesi Rekomendasi Jalur Karir Jepang",
     description:
-      "Persiapan karir ke Jepang lewat jalur resmi SSW & TITP. Bermitra dengan LPK resmi terdaftar Kemenaker RI.",
+      "Dapatkan roadmap yang jelas untuk memulai karier di Jepang, mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu. Hanya Rp79.000.",
   },
 };
 
