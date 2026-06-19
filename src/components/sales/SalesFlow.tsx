@@ -115,7 +115,7 @@ export default function SalesFlow() {
 
               {/* Direct Reassurance Quote/Text */}
               <div className="md:pl-6 text-center md:text-left flex flex-col justify-center">
-                <p className="text-sm sm:text-base text-brand-red font-extrabold leading-relaxed">
+                <p className="text-sm sm:text-base text-[#D34742] font-extrabold leading-relaxed">
                   Dengan investasi 78k, dapatkan roadmap yang jelas untuk memulai karier di Jepang, mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
                 </p>
               </div>
@@ -145,10 +145,10 @@ export default function SalesFlow() {
         >
           {/* Header Kelompok */}
           <div className="flex flex-col items-center sm:items-start mb-6">
-            <span className="text-brand-navy font-heading text-xs uppercase tracking-wider font-extrabold">
+            <span className="text-brand-navy font-heading text-sm sm:text-xs uppercase tracking-wider font-extrabold">
               Gambaran Perjalanan Selanjutnya
             </span>
-            <p className="text-[10px] sm:text-xs text-brand-navy-light/85 mt-1 italic text-center sm:text-left font-medium">
+            <p className="text-xs sm:text-[10px] md:text-xs text-brand-navy-light/85 mt-1 italic text-center sm:text-left font-medium">
               * Rute di bawah disesuaikan dengan hasil rekomendasi jalur masing-masing orang (bukan langkah kaku yang sama).
             </p>
           </div>
@@ -166,10 +166,10 @@ export default function SalesFlow() {
                 </span>
 
                 <div className="space-y-2 mt-2">
-                  <h4 className="font-heading text-xs sm:text-sm font-bold text-brand-navy leading-snug">
+                  <h4 className="font-heading text-sm sm:text-xs md:text-sm font-bold text-brand-navy leading-snug">
                     {step.title}
                   </h4>
-                  <p className="text-[10px] sm:text-xs text-brand-navy-light font-medium leading-normal">
+                  <p className="text-xs sm:text-[10px] md:text-xs text-brand-navy-light font-medium leading-normal">
                     {step.desc}
                   </p>
                 </div>
