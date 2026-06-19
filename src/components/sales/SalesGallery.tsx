@@ -34,11 +34,11 @@ export default function SalesGallery() {
   ];
 
   const webinarImages = [
-    { src: "/webinar-1.jpg", title: "Sesi Interaktif Pembekalan Karir", desc: "Diskusi langsung penentuan arah kerja ke Jepang" },
-    { src: "/webinar-2.jpg", title: "Webinar Series #4 - Harunokaze", desc: "Penjelasan detail rincian estimasi biaya dan jalur resmi" },
-    { src: "/webinar-3.jpg", title: "Webinar Series #5 - Antusias Tinggi", desc: "Lebih dari 40+ peserta aktif bertanya seputar SSW/TITP" },
-    { src: "/webinar-4.jpg", title: "Tanya Jawab Live Bersama Expert", desc: "Membahas tips lolos wawancara kerja user Jepang" },
-    { src: "/webinar-5.jpg", title: "Sesi Sharing Alumni & Mentor", desc: "Berbagi pengalaman nyata persiapan mental dan fisik" },
+    { src: "/webinar-1.jpg", title: "Webinar #1", desc: "Sesi pembekalan karir interaktif dan tanya jawab persiapan kerja ke Jepang." },
+    { src: "/webinar-2.jpg", title: "Webinar #2", desc: "Penjelasan mengenai estimasi biaya mandiri, dokumen persyaratan, dan rincian alur proses." },
+    { src: "/webinar-3.jpg", title: "Webinar #3", desc: "Sesi diskusi bersama para peserta mengenai peluang kerja dan persiapan bahasa." },
+    { src: "/webinar-4.jpg", title: "Webinar #4", desc: "Tanya jawab langsung membahas langkah-langkah penentuan program karir yang tepat." },
+    { src: "/webinar-5.jpg", title: "Webinar #5", desc: "Sesi berbagi pengalaman dari mentor mengenai kesiapan kerja dan kehidupan di Jepang." },
   ];
 
   return (
