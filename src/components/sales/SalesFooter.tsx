@@ -7,14 +7,17 @@ export default function SalesFooter() {
     <footer className="bg-[#1C1F45] text-white/80 py-12 border-t border-white/5">
       <div className="max-w-4xl mx-auto px-6 text-center space-y-6">
         {/* Simple Brand Info */}
-        <div className="flex flex-col items-center justify-center">
-          <div className="w-24 h-24 sm:w-28 sm:h-28 flex items-center justify-center">
+        <div className="flex items-center justify-center gap-3">
+          <div className="w-12 h-12 bg-white p-1.5 rounded-full shadow-sm flex items-center justify-center">
             <img
               src="/logo-harunokaze.png"
               alt="Logo Harunokaze"
               className="w-full h-full object-contain"
             />
           </div>
+          <span className="font-heading text-base font-bold tracking-wide text-white">
+            Harunokaze
+          </span>
         </div>
         
         <p className="text-xs sm:text-sm text-white/70 max-w-md mx-auto leading-relaxed">

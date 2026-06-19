@@ -72,7 +72,7 @@ export default function SalesHero() {
       <div className="relative z-20 max-w-3xl mx-auto px-6 text-center flex flex-col items-center">
         {/* Logo Harunokaze */}
         <div className={`mb-6 transition-all duration-700 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
-          <div className="w-36 h-36 sm:w-44 sm:h-44 flex items-center justify-center">
+          <div className="w-20 h-20 bg-white p-2.5 rounded-full shadow-md flex items-center justify-center">
             <img
               src="/logo-harunokaze.png"
               alt="Logo Harunokaze"

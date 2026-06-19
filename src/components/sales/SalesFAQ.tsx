@@ -31,7 +31,7 @@ export default function SalesFAQ() {
   const faqs = [
     {
       q: "Kenapa ada biaya untuk sesi ini?",
-      a: "Biaya Rp79.000 (dari harga normal Rp150.000) kami gunakan untuk memastikan komitmen kehadiran pendaftar, sekaligus menghargai waktu tim ahli karir yang meluangkan sesi diskusi eksklusif khusus untuk Anda.",
+      a: "Biaya Rp79.000 (dari harga normal Rp150.000) kami gunakan untuk memastikan komitmen kehadiran pendaftar, sekaligus menghargai waktu tim Expert kami yang meluangkan sesi diskusi eksklusif khusus untuk Anda.",
     },
     {
       q: "Apakah ikut program ini pasti berangkat ke Jepang?",
@@ -39,7 +39,7 @@ export default function SalesFAQ() {
     },
     {
       q: "Berapa lama keseluruhan prosesnya?",
-      a: "Rata-rata proses persiapan dari nol belajar bahasa, ujian sertifikasi, wawancara kerja, hingga visa selesai berkisar antara 6 sampai 8 bulan, tergantung kesiapan masing-masing orang.",
+      a: "Rata-rata proses persiapan dari nol belajar bahasa, ujian sertifikasi, wawancara kerja, hingga visa selesai berkisar antara 4 sampai 6 bulan, tergantung kesiapan masing-masing orang.",
     },
     {
       q: "Bagaimana kalau saya belum bisa bahasa Jepang sama sekali?",

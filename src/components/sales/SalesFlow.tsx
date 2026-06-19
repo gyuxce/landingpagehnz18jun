@@ -134,23 +134,23 @@ export default function SalesFlow() {
         >
           {/* Header Kelompok */}
           <div className="flex flex-col items-center sm:items-start mb-6">
-            <span className="text-brand-navy-light font-heading text-xs uppercase tracking-wider font-semibold">
+            <span className="text-brand-navy font-heading text-xs uppercase tracking-wider font-extrabold">
               Gambaran Perjalanan Selanjutnya
             </span>
-            <p className="text-[10px] sm:text-xs text-brand-navy-light/60 mt-1 italic text-center sm:text-left">
+            <p className="text-[10px] sm:text-xs text-brand-navy-light/85 mt-1 italic text-center sm:text-left font-medium">
               * Rute di bawah disesuaikan dengan hasil rekomendasi jalur masing-masing orang (bukan langkah kaku yang sama).
             </p>
           </div>
 
           {/* Faded Timeline Grid (5 Steps) */}
-          <div className="grid grid-cols-1 sm:grid-cols-5 gap-4 opacity-60 hover:opacity-85 transition-opacity duration-300">
+          <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
             {futureSteps.map((step, idx) => (
               <div
                 key={idx}
-                className="bg-brand-navy/[0.03] border border-brand-navy/10 rounded-xl p-4 flex flex-col justify-between min-h-[120px] relative"
+                className="bg-white border border-brand-navy/15 rounded-xl p-4 flex flex-col justify-between min-h-[120px] relative shadow-xs hover:border-brand-navy/30 hover:shadow-sm transition-all duration-200"
               >
                 {/* Step Index Circle inside */}
-                <span className="absolute top-3 right-3 text-xs font-bold text-brand-navy/20">
+                <span className="absolute top-3 right-3 text-xs font-bold text-brand-navy/40">
                   #{idx + 3}
                 </span>
 
@@ -158,7 +158,7 @@ export default function SalesFlow() {
                   <h4 className="font-heading text-xs sm:text-sm font-bold text-brand-navy leading-snug">
                     {step.title}
                   </h4>
-                  <p className="text-[10px] sm:text-xs text-brand-navy-light leading-normal">
+                  <p className="text-[10px] sm:text-xs text-brand-navy-light font-medium leading-normal">
                     {step.desc}
                   </p>
                 </div>
