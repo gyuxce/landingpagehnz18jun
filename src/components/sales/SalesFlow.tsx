@@ -67,9 +67,6 @@ export default function SalesFlow() {
 
           {/* Unified Container */}
           <div className="bg-brand-navy text-white rounded-card p-6 sm:p-8 md:p-10 shadow-lg border border-brand-navy-light/10 relative overflow-hidden">
-            {/* Ambient subtle glow inside card */}
-            <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-brand-red/10 rounded-full blur-3xl pointer-events-none" />
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center relative z-10">
               {/* Steps inside Group 1 */}
               <div className="space-y-4 md:border-r md:border-white/10 md:pr-8">
@@ -100,12 +97,26 @@ export default function SalesFlow() {
                     </p>
                   </div>
                 </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-8 h-8 rounded-full bg-brand-red text-white font-heading text-sm font-bold flex items-center justify-center flex-shrink-0">
+                    3
+                  </div>
+                  <div>
+                    <h3 className="font-heading text-base font-bold text-white">
+                      Evaluasi & Konsultasi
+                    </h3>
+                    <p className="text-xs sm:text-sm text-white/70 mt-1">
+                      Mengetahui potensi diri dan mendapatkan sertifikat serta sesi 1-on-1 konsultasi bersama expert.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               {/* Direct Reassurance Quote/Text */}
               <div className="md:pl-6 text-center md:text-left flex flex-col justify-center">
-                <p className="text-sm sm:text-base text-brand-red-light font-bold italic leading-relaxed">
-                  &quot;Kamu tidak membeli tiket keberangkatan ke Jepang seharga Rp79 ribu, tapi kamu membeli kejelasan arah agar tidak salah melangkah sebelum berkomitmen lebih besar.&quot;
+                <p className="text-sm sm:text-base text-brand-red font-extrabold leading-relaxed">
+                  Dengan investasi 78k, dapatkan roadmap yang jelas untuk memulai karier di Jepang, mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
                 </p>
               </div>
             </div>
