@@ -3,6 +3,7 @@ import SalesBenefits from "@/components/sales/SalesBenefits";
 import SalesFlow from "@/components/sales/SalesFlow";
 import SalesWhyUs from "@/components/sales/SalesWhyUs";
 import SalesTestimonials from "@/components/sales/SalesTestimonials";
+import SalesGallery from "@/components/sales/SalesGallery";
 import SalesFAQ from "@/components/sales/SalesFAQ";
 import SalesFooter from "@/components/sales/SalesFooter";
 
@@ -15,6 +16,7 @@ export default function Home() {
         <SalesFlow />
         <SalesWhyUs />
         <SalesTestimonials />
+        <SalesGallery />
         <SalesFAQ />
       </main>
       <SalesFooter />
