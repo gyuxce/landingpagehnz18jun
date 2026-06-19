@@ -180,13 +180,23 @@ export default function SalesFlow() {
 
         {/* Closing Calm Reassurance */}
         <div
-          className={`text-center pt-6 border-t border-brand-navy/5 transition-all duration-700 delay-600 ${
+          className={`text-center pt-6 border-t border-brand-navy/5 transition-all duration-700 delay-600 flex flex-col items-center space-y-5 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
           <p className="text-xs sm:text-sm text-brand-navy-light italic font-medium max-w-lg mx-auto">
             💡 Setelah pendaftaran, Anda cukup melakukan konfirmasi via WhatsApp. Tim admin kami akan menghubungi Anda dalam waktu maksimal 10 menit.
           </p>
+          
+          <div className="pt-2">
+            <a
+              href="#register"
+              className="inline-flex px-8 py-3.5 bg-brand-red hover:bg-brand-red-light hover:scale-[1.02] active:scale-[0.98] text-white text-sm sm:text-base font-bold rounded-button shadow-md hover:shadow-lg transition-all duration-200 gap-2 items-center"
+            >
+              Daftar Sesi Rekomendasi Jalur Sekarang
+              <ArrowRight className="w-4.5 h-4.5" />
+            </a>
+          </div>
         </div>
       </div>
     </section>

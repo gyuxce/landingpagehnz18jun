@@ -122,11 +122,11 @@ export default function SalesFAQ() {
 
           <div className="relative z-10 max-w-xl mx-auto space-y-6">
             <h3 className="font-heading text-xl sm:text-2xl font-bold leading-tight">
-              Ambil Langkah Pertamamu Hari Ini
+              Merencanakan Langkah Masa Depan Memang Tidak Mudah
             </h3>
             
             <p className="text-xs sm:text-sm text-white/80 max-w-md mx-auto leading-relaxed">
-              Dapatkan roadmap yang jelas untuk memulai karier di Jepang, mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
+              Merencanakan langkah untuk masa depan pastinya tidak mudah dan penuh keraguan. Harunokaze hadir sebagai solusimu untuk mendapatkan roadmap yang jelas ke Jepang: mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang paling tepat untuk profilmu.
             </p>
 
             {/* Bank Transfer Details (CRO: Click to Copy) */}
