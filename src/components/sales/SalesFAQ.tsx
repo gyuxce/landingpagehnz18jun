@@ -134,19 +134,19 @@ export default function SalesFAQ() {
               <p className="text-[10px] sm:text-xs text-white/60 font-semibold uppercase tracking-wider">
                 Rekening Transfer Resmi:
               </p>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between gap-4">
                 <div>
-                  <p className="text-xs sm:text-sm font-bold text-white">Bank BCA</p>
-                  <p className="text-sm sm:text-base font-heading font-semibold text-brand-red-light tracking-wider">8645 2891 00</p>
-                  <p className="text-[10px] sm:text-xs text-white/70">a.n. PT Harunokaze Indonesia</p>
+                  <p className="text-xs sm:text-sm font-bold text-white">Bank OCBC NISP</p>
+                  <p className="text-sm sm:text-base font-heading font-semibold text-brand-red-light tracking-wider">0138 0000 0609</p>
+                  <p className="text-[10px] sm:text-xs text-white/70 leading-relaxed max-w-[180px] sm:max-w-none">a.n. Lembaga Pelatihan Kerja Wiwitan Baru Sukabumi</p>
                 </div>
                 <button
                   onClick={() => {
-                    navigator.clipboard.writeText("8645289100");
+                    navigator.clipboard.writeText("013800000609");
                     setIsCopied(true);
                     setTimeout(() => setIsCopied(false), 2000);
                   }}
-                  className="px-3 py-1.5 bg-white/10 hover:bg-white/20 active:bg-white/30 text-xs font-semibold rounded-lg transition-all duration-200 border border-white/5"
+                  className="flex-shrink-0 px-3 py-1.5 bg-white/10 hover:bg-white/20 active:bg-white/30 text-xs font-semibold rounded-lg transition-all duration-200 border border-white/5 align-self-start"
                 >
                   {isCopied ? "✓ Tersalin" : "Salin Rekening"}
                 </button>
