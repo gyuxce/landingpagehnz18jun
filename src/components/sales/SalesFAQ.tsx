@@ -165,9 +165,14 @@ export default function SalesFAQ() {
 
             {/* Button */}
             <a
-              href="https://wa.me/message/DWVTJESHI2RQC1"
+              href="https://forms.gle/nM37xTkn7JFjRKGC8"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                if (typeof window !== "undefined" && (window as any).fbq) {
+                  (window as any).fbq("track", "Lead");
+                }
+              }}
               className="inline-flex px-8 py-3.5 bg-brand-red hover:bg-brand-red-light hover:scale-[1.02] active:scale-[0.98] text-white text-sm sm:text-base font-bold rounded-button shadow-md hover:shadow-lg transition-all duration-200 gap-2 items-center"
             >
               Daftar Sesi Rekomendasi Jalur
