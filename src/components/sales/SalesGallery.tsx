@@ -45,6 +45,8 @@ export default function SalesGallery() {
   const interviewImages = [
     { src: "/interview-1.jpg", title: "Interview #1", desc: "Dokumentasi pelaksanaan interview langsung untuk seleksi program kerja Jepang bidang konstruksi di STBA Bandung." },
     { src: "/interview-2.jpg", title: "Interview #2", desc: "Suasana persiapan tertulis dan pembekalan para kandidat sebelum memasuki sesi seleksi interview." },
+    { src: "/interview-3.jpg", title: "Interview #3", desc: "Sesi foto bersama perwakilan perusahaan mitra, mentor, serta para kandidat terpilih program konstruksi." },
+    { src: "/interview-4.jpg", title: "Interview #4", desc: "Suasana para kandidat yang sedang fokus mengerjakan ujian tertulis seleksi program kerja Jepang." },
   ];
 
   return (
