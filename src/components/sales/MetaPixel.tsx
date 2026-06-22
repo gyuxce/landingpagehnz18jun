@@ -3,7 +3,7 @@
 import Script from "next/script";
 
 export default function MetaPixel() {
-  const pixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID;
+  const pixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID || "4703717519855828";
 
   // Jika Pixel ID tidak dikonfigurasi di environment variables, jangan muat apapun
   if (!pixelId) return null;
