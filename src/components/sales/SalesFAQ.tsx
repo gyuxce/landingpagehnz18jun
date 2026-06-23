@@ -134,7 +134,7 @@ export default function SalesFAQ() {
             {/* Countdown & Scarcity Indicator */}
             <div className="space-y-4 max-w-sm mx-auto">
               <SalesCountdown />
-              <SalesScarcityBar />
+              <SalesScarcityBar theme="dark" />
             </div>
 
             {/* Bank Transfer Details (CRO: Click to Copy) */}
