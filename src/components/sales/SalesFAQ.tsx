@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ChevronDown, ArrowRight, AlertCircle } from "lucide-react";
+import SalesCountdown from "./SalesCountdown";
+import SalesScarcityBar from "./SalesScarcityBar";
 
 export default function SalesFAQ() {
   const [isVisible, setIsVisible] = useState(false);
@@ -122,12 +124,18 @@ export default function SalesFAQ() {
 
           <div className="relative z-10 max-w-xl mx-auto space-y-6">
             <h3 className="font-heading text-xl sm:text-2xl font-bold leading-tight">
-              Merencanakan Langkah Masa Depan Memang Tidak Mudah
+              Ikuti Special Webinar Harunokaze: Kerja di Jepang dari Nol
             </h3>
             
             <p className="text-xs sm:text-sm text-white/80 max-w-md mx-auto leading-relaxed">
-              Merencanakan langkah untuk masa depan pastinya tidak mudah dan penuh keraguan. Harunokaze hadir sebagai solusimu untuk mendapatkan roadmap yang jelas ke Jepang: mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang paling tepat untuk profilmu.
+              Dapatkan roadmap yang jelas langsung pada Senin, 29 Juni 2026 pukul 19.30 WIB. Amankan kursi promo Anda seharga Rp79.000 sebelum kehabisan slot!
             </p>
+
+            {/* Countdown & Scarcity Indicator */}
+            <div className="space-y-4 max-w-sm mx-auto">
+              <SalesCountdown />
+              <SalesScarcityBar />
+            </div>
 
             {/* Bank Transfer Details (CRO: Click to Copy) */}
             <div className="bg-white/5 border border-white/10 rounded-xl p-4 max-w-sm mx-auto space-y-2 text-left">

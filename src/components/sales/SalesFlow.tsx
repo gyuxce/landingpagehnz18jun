@@ -90,10 +90,10 @@ export default function SalesFlow() {
                   </div>
                   <div>
                     <h3 className="font-heading text-base font-bold text-white">
-                      Roadmap Session (Webinar)
+                      Live Webinar Spesial
                     </h3>
                     <p className="text-xs sm:text-sm text-white/70 mt-1">
-                      Ikuti webinar interaktif 1-on-1/kelompok khusus untuk menentukan arah karir terbaik.
+                      Ikuti Live Webinar "Kerja di Jepang dari Nol" pada Senin, 29 Juni 2026 pukul 19.30 WIB untuk kupas tuntas alur dan biaya.
                     </p>
                   </div>
                 </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import MetaPixel from "@/components/sales/MetaPixel";
+import AnnouncementBar from "@/components/sales/AnnouncementBar";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
@@ -61,6 +62,7 @@ export default function RootLayout({
       className={`${plusJakartaSans.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <AnnouncementBar />
         <MetaPixel />
         {children}
         <Analytics />

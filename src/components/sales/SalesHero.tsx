@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Sparkles, ArrowRight, AlertCircle } from "lucide-react";
+import SalesCountdown from "./SalesCountdown";
+import SalesScarcityBar from "./SalesScarcityBar";
 
 export default function SalesHero() {
   const [isVisible, setIsVisible] = useState(false);
@@ -84,7 +86,7 @@ export default function SalesHero() {
         {/* Badge Sesi */}
         <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-brand-red/20 border border-brand-red/45 text-white text-[11px] font-semibold uppercase tracking-wider mb-6">
           <Sparkles className="w-3.5 h-3.5 text-brand-red" />
-          <span>✦ Sesi Rekomendasi Jalur 1-on-1</span>
+          <span>✦ Special Webinar Harunokaze</span>
         </div>
 
         {/* Headline Pertanyaan Kebingungan */}
@@ -93,8 +95,8 @@ export default function SalesHero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
-          Pengen Kerja ke Jepang, <br className="hidden sm:inline" />
-          Tapi Bingung Harus Mulai dari Mana?
+          Special Webinar Harunokaze: <br className="hidden sm:inline" />
+          Kerja di Jepang dari Nol
         </h1>
 
         {/* Sub-heading Penjelasan Roadmap */}
@@ -103,7 +105,7 @@ export default function SalesHero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
-          Dapatkan <strong className="font-bold text-white">roadmap yang jelas</strong> untuk memulai karier di Jepang, mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
+          Dapatkan <strong className="font-bold text-white">roadmap yang jelas</strong> untuk memulai karier di Jepang pada <strong className="font-bold text-white">Senin, 29 Juni 2026 pukul 19.30 WIB</strong>. Mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
         </p>
 
         {/* Pricing & CTA Card (Satu Kesatuan Visual) */}
@@ -125,6 +127,12 @@ export default function SalesHero() {
             <span className="font-heading text-3xl sm:text-4xl font-extrabold text-brand-red">
               Rp79.000
             </span>
+          </div>
+
+          {/* Countdown & Scarcity Indicator */}
+          <div className="space-y-4 mb-6">
+            <SalesCountdown />
+            <SalesScarcityBar />
           </div>
 
           {/* Tombol CTA Utama */}
