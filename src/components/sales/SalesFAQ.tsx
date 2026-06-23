@@ -138,15 +138,15 @@ export default function SalesFAQ() {
             </div>
 
             {/* Bank Transfer Details (CRO: Click to Copy) */}
-            <div className="bg-white/5 border border-white/10 rounded-xl p-4 max-w-sm mx-auto space-y-2 text-left">
-              <p className="text-[10px] sm:text-xs text-white/60 font-semibold uppercase tracking-wider">
+            <div className="bg-white border border-brand-navy/10 rounded-xl p-4 max-w-sm mx-auto space-y-2 text-left shadow-sm">
+              <p className="text-[10px] sm:text-xs text-brand-navy-light font-extrabold uppercase tracking-wider">
                 Rekening Transfer Resmi:
               </p>
               <div className="flex items-center justify-between gap-4">
                 <div>
-                  <p className="text-xs sm:text-sm font-bold text-white">Bank OCBC NISP</p>
-                  <p className="text-sm sm:text-base font-heading font-semibold text-brand-red-light tracking-wider">0138 0000 0609</p>
-                  <p className="text-[10px] sm:text-xs text-white/70 leading-relaxed max-w-[180px] sm:max-w-none">a.n. Lembaga Pelatihan Kerja Wiwitan Baru Sukabumi</p>
+                  <p className="text-xs sm:text-sm font-bold text-brand-navy">Bank OCBC NISP</p>
+                  <p className="text-sm sm:text-base font-heading font-extrabold text-brand-red tracking-wider">0138 0000 0609</p>
+                  <p className="text-[10px] sm:text-xs text-brand-navy-light/90 leading-relaxed max-w-[180px] sm:max-w-none font-medium">a.n. Lembaga Pelatihan Kerja Wiwitan Baru Sukabumi</p>
                 </div>
                 <button
                   onClick={() => {
@@ -154,7 +154,7 @@ export default function SalesFAQ() {
                     setIsCopied(true);
                     setTimeout(() => setIsCopied(false), 2000);
                   }}
-                  className="flex-shrink-0 px-3 py-1.5 bg-white/10 hover:bg-white/20 active:bg-white/30 text-xs font-semibold rounded-lg transition-all duration-200 border border-white/5 align-self-start"
+                  className="flex-shrink-0 px-3 py-1.5 bg-brand-navy hover:bg-brand-navy-light active:scale-95 text-white text-xs font-extrabold rounded-lg transition-all duration-200 shadow-sm"
                 >
                   {isCopied ? "✓ Tersalin" : "Salin Rekening"}
                 </button>

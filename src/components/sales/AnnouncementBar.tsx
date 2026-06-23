@@ -9,7 +9,7 @@ export default function AnnouncementBar() {
   if (!isVisible) return null;
 
   return (
-    <div className="sticky top-0 z-50 bg-[#D34742] text-white py-2 px-4 shadow-sm border-b border-brand-red-light/10">
+    <div className="sticky top-0 z-50 bg-brand-red text-white py-2 px-4 shadow-sm border-b border-brand-red-light/10">
       <div className="max-w-6xl mx-auto flex items-center justify-between gap-4 text-xs font-bold">
         {/* Pulsing Alert & Text */}
         <div className="flex items-center gap-2 mx-auto sm:mx-0">

@@ -115,9 +115,9 @@ export default function SalesFlow() {
 
               {/* Direct Reassurance Quote/Text */}
               <div className="md:pl-6 text-center md:text-left flex flex-col justify-center">
-                <div className="bg-white/5 border border-white/10 rounded-xl p-4 sm:p-5">
-                  <p className="text-xs sm:text-sm md:text-base text-white/90 font-medium leading-relaxed">
-                    Dengan investasi <span className="text-[#FF8A84] font-extrabold">Rp79.000</span>, dapatkan roadmap yang jelas untuk memulai karier di Jepang: mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
+                <div className="bg-white border border-brand-navy/10 rounded-xl p-4 sm:p-5 shadow-sm">
+                  <p className="text-xs sm:text-sm md:text-base text-brand-navy font-medium leading-relaxed">
+                    Dengan investasi <span className="text-brand-red font-extrabold">Rp79.000</span>, dapatkan roadmap yang jelas untuk memulai karier di Jepang: mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
                   </p>
                 </div>
               </div>
