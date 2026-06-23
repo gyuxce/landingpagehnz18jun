@@ -93,7 +93,7 @@ export default function SalesFlow() {
                       Live Webinar Spesial
                     </h3>
                     <p className="text-xs sm:text-sm text-white/70 mt-1">
-                      Ikuti Live Webinar "Kerja di Jepang dari Nol" pada Senin, 29 Juni 2026 pukul 19.30 WIB untuk kupas tuntas alur dan biaya.
+                      Ikuti Live Webinar "Kerja di Jepang dari Nol" pada Senin, 29 Juni 2026 pukul 19.00 WIB untuk kupas tuntas alur dan biaya.
                     </p>
                   </div>
                 </div>

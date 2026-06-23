@@ -105,7 +105,7 @@ export default function SalesHero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
         >
-          Dapatkan <strong className="font-bold text-white">roadmap yang jelas</strong> untuk memulai karier di Jepang pada <strong className="font-bold text-white">Senin, 29 Juni 2026 pukul 19.30 WIB</strong>. Mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
+          Dapatkan <strong className="font-bold text-white">roadmap yang jelas</strong> untuk memulai karier di Jepang pada <strong className="font-bold text-white">Senin, 29 Juni 2026 pukul 19.00 WIB</strong>. Mulai dari persiapan, estimasi biaya, hingga rekomendasi jalur yang sesuai dengan profilmu.
         </p>
 
         {/* Pricing & CTA Card (Satu Kesatuan Visual) */}

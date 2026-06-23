@@ -128,7 +128,7 @@ export default function SalesFAQ() {
             </h3>
             
             <p className="text-xs sm:text-sm text-white/80 max-w-md mx-auto leading-relaxed">
-              Dapatkan roadmap yang jelas langsung pada Senin, 29 Juni 2026 pukul 19.30 WIB. Amankan kursi promo Anda seharga Rp79.000 sebelum kehabisan slot!
+              Dapatkan roadmap yang jelas langsung pada Senin, 29 Juni 2026 pukul 19.00 WIB. Amankan kursi promo Anda seharga Rp79.000 sebelum kehabisan slot!
             </p>
 
             {/* Countdown & Scarcity Indicator */}

@@ -18,7 +18,7 @@ export default function AnnouncementBar() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
           </span>
           <span className="tracking-wide text-center sm:text-left">
-            🔥 Live Webinar: <span className="underline font-extrabold">Senin, 29 Juni 2026 (19.30 WIB)</span>. Sisa 3 Slot Sesi Promo Rp79rb!
+            🔥 Live Webinar: <span className="underline font-extrabold">Senin, 29 Juni 2026 (19.00 WIB)</span>. Sisa 30 Slot Sesi Promo Rp79rb!
           </span>
         </div>
 

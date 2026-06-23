@@ -15,8 +15,8 @@ export default function SalesCountdown() {
 
   useEffect(() => {
     setIsMounted(true);
-    // Senin, 29 Juni 2026 pukul 19.30 WIB (GMT+0700)
-    const targetTime = new Date("2026-06-29T19:30:00+07:00").getTime();
+    // Senin, 29 Juni 2026 pukul 19.00 WIB (GMT+0700)
+    const targetTime = new Date("2026-06-29T19:00:00+07:00").getTime();
 
     const calculateTime = () => {
       const now = Date.now();
